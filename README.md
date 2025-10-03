@@ -44,4 +44,8 @@ uv run example_f1tenth.py
 
 ### Connecting to AutoDRIVE
 
-While `example_f1tenth.py` is running, open the AutoDRIVE application. Then click on "Manual" to switch it to Autonomous mode, and then click on "Disconnected" to connect. Your car should now be driving forward automatically!
+While `example_f1tenth.py` is running, open the AutoDRIVE application. Then click on "Manual" to switch it to Autonomous mode, and then click on "Disconnected" to connect.
+
+![AutoDRIVE buttons](images/AutoDRIVE_buttons.png "AutoDRIVE buttons")
+
+Your car should now be driving forward automatically!
