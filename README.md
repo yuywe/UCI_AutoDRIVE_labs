@@ -36,9 +36,11 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 
 ### Running example_f1tenth.py
 
-UV will automatically download the correct Python version and the required packages in a virtual environment managed by UV. Therefore, please refrain from using pip or venv on top of UV. Now you are ready to run example_f1tenth.py!
+UV will automatically download the correct Python version and the required packages in a virtual environment managed by UV. Therefore, please refrain from using pip or venv on top of UV. Now you are ready to run example_f1tenth.py! Restart your terminal, then run
 
 ```bash
+git clone https://github.com/uci-f1tenth/UCI_AutoDRIVE_labs
+cd UCI_AutoDRIVE_labs
 uv run example_f1tenth.py
 ```
 
