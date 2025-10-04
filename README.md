@@ -25,13 +25,13 @@ First, install uv, the Python package manager used by the UCI team.
 #### Macos and Linux
 
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh | less
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 #### Windows
 
 ```bash
-powershell -c "irm https://astral.sh/uv/install.ps1 | more"
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 ### Running example_f1tenth.py
