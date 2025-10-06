@@ -28,15 +28,37 @@ First, install uv, the Python package manager used by the UCI team.
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
+Then close and reopen your terminal.
+
 #### Windows
 
 ```bash
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
+Then close and reopen your terminal.
+
+### Installing git
+
+#### Macos
+
+Install command line developer tools
+
+```
+xcode-select --install
+```
+
+#### Windows
+
+Install [git for windows](https://git-scm.com/downloads/win). The easiest way to do this is with winget, so in a terminal:
+
+```bash
+winget install --id Git.Git -e --source winget
+```
+
 ### Running example_f1tenth.py
 
-UV will automatically download the correct Python version and the required packages in a virtual environment managed by UV. Therefore, please refrain from using pip or venv on top of UV. Now you are ready to run example_f1tenth.py! Restart your terminal, then run
+UV will automatically download the correct Python version and the required packages in a virtual environment managed by UV. Therefore, please refrain from using pip or venv on top of UV. Now you are ready to run example_f1tenth.py!
 
 ```bash
 git clone https://github.com/uci-f1tenth/UCI_AutoDRIVE_labs
