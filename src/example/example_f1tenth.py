@@ -57,7 +57,7 @@ def bridge(sid, data):
 
         # Vehicle control
         f1tenth_1.throttle_command = 1 # [-1, 1]
-        f1tenth_1.steering_command = 0 # [-1, 1]
+        f1tenth_1.steering_command = 1 # [-1, 1]
 
         ########################################################################
 
