@@ -63,7 +63,7 @@ UV will automatically download the correct Python version and the required packa
 ```bash
 git clone https://github.com/uci-f1tenth/UCI_AutoDRIVE_labs
 cd UCI_AutoDRIVE_labs
-uv run example_f1tenth.py
+uv run src/example/example_f1tenth.py
 ```
 
 ### Connecting to AutoDRIVE
